@@ -1,0 +1,17 @@
+MEDICAL DISEASE PREDICTION - QUICK START
+
+1. Extract this ZIP.
+2. Open the folder in VS Code.
+3. In the terminal run:
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   python -m pip install -r requirements.txt
+4. Train the model:
+   python train_model.py
+   (Internet is needed on the first run to download the dataset.)
+5. Start the website:
+   streamlit run app.py
+6. Open the local URL printed by Streamlit, usually http://localhost:8501.
+
+Read README.md for the full explanation and GitHub submission checklist.
+The app is educational only and is not a medical diagnostic tool.
